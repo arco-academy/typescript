@@ -67,10 +67,15 @@ type Names = "Kindra" | "Shiroma" | "DG" | "Bezerra" | "Jean" | "May" | "Carolis
 
 ### Quinto Exercício
 
-Crie uma tipagem condicional que filtre um ou mais nomes presentes a baixo e atribua a uma variavel para aceitar apenas os nomes 'Kindra & Shiroma':
+Crie uma interface que extraia apenas as chaves do objeto abaixo e depois atribua a uma variável:
 
 ```typescript=
-type Names = "Kindra" | "Shiroma" | "DG" | "Bezerra" | "Jean" | "May" | "Carolis"
+const userInfo = {
+    name: "Matheus",
+    age: 24,
+    hobby: "Tocar piano",
+    email: "matheus.kindrazki@arcotech.io"
+}
 ```
 
 ### Sexto Exercício
